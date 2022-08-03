@@ -10,9 +10,16 @@ struct Student{
 };
 
 int main(){
-    Student s1, s2;     //making onjects for student structure/class
+    Student s1, s2;     //making objects for student structure/class
     cout<< "Enter name of student 1: ";
     cin>> s1.name;
+    
+    string s1;
+    cout<<"Do you want to change the name of student 1 (Y/N)";
+    cin>>s1;
+    if(s1.equals('Y')){
+    cin>> s1.name;
+    }
 
     cout<< "Enter registration Number of student 1: ";
     cin>> s1.regNo;
@@ -40,6 +47,8 @@ int main(){
     
     cout<< "Enter gender of student 2: ";
     cin>> s2.gender;
+    
+    //printing the details
 
     cout<< "The name of student 1 is: " << s1.name << endl;
     cout<< "The registration Number of student 1 is: " << s1.regNo << endl;;
