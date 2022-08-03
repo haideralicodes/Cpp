@@ -6,6 +6,7 @@ struct Student{
     int regNo;       //The student structure
     char grade;
     int age;
+    string gender;
 };
 
 int main(){
@@ -21,6 +22,9 @@ int main(){
 
     cout<< "Enter age of student 1: ";
     cin>> s1.age;
+    
+    cout<< "Enter gender of student 1: ";
+    cin>> s1.gender;
 
     cout<< "Enter name of student 2: ";
     cin>> s2.name;
@@ -33,16 +37,21 @@ int main(){
 
     cout<< "Enter age of student 2: ";
     cin>> s2.age;
+    
+    cout<< "Enter gender of student 2: ";
+    cin>> s2.gender;
 
     cout<< "The name of student 1 is: " << s1.name << endl;
     cout<< "The registration Number of student 1 is: " << s1.regNo << endl;;
-    cout<< "The age of student 1 is: " << s1.age << endl;;
-    cout<< "The grade of student 1 is: " << s1.grade << endl;;
+    cout<< "The age of student 1 is: " << s1.age << endl;
+    cout<< "The grade of student 1 is: " << s1.grade << endl;
+    cout<< "The gender of student 1 is: "<< s1.gender << endl;
 
-    cout<< "The name of student 2 is: " << s2.name << endl;;
-    cout<< "The registration Number of student 2 is: " << s2.regNo << endl;;
-    cout<< "The age of student 2 is: " << s2.age << endl;;
+    cout<< "The name of student 2 is: " << s2.name << endl;
+    cout<< "The registration Number of student 2 is: " << s2.regNo << endl;
+    cout<< "The age of student 2 is: " << s2.age << endl;
     cout<< "The grade of student 2 is: " << s2.grade << endl;
+    cout<< "The gender of student 2 is: "<< s2.gender << endl;
 
     return 0;
 }
