@@ -1,8 +1,12 @@
 #include <iostream>
 using namespace std;
+
 //inserting number within given array numbers
+
 int main(){     //   0, 1,  2,  3,  4, 5, 6, 7, 8, 9 
+    
     int array[10] = {2, 10, 15, 20, 25};
+    
     cout<< "Enter the index for entering the numbe in the array: ";
     int index;
     cin>> index;
