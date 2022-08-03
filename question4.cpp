@@ -17,6 +17,7 @@ int main(){
         array[index] = num;
     }
     
+    //loop for printing the array
     for(int j = 0; j < 10; j++){
         cout<< array[j] << endl;
      }
